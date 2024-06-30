@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+}
+body>h1{
+    text-align: center;
+    font-size: 60px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+}
+label {
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+}
+select {
+    width: 550px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: black;
+    color: aqua;
+}
+#total {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: green;
+}
